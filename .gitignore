@@ -1,0 +1,36 @@
+# Hugo files
+public/
+ressources/_gen/
+.hugo_build.lock
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# VSCode files
+.vscode/
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test

@@ -1,0 +1,13 @@
+baseURL: /
+title: Biapy Hugo Theme demo
+copyright: 'Copyright © 2023 Biapy. Open-source unter MIT license.'
+
+theme:
+  - biapy-hugo-theme
+  - html-aria-hugo-theme
+
+# Configure build.
+# @see https://gohugo.io/getting-started/configuration/#configure-build
+build:
+  # Set writeStats to true allowing the purge of CSS classes in production.
+  writeStats: true

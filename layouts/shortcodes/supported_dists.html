@@ -1,0 +1,11 @@
+
+{{ if $dists := .Page.GetTerms "dists" }}
+    <p>This how-to is tested with:</p>
+    <ul class="tested-dists">
+        {{ range $dists }}
+            <li class="{{ range .Params.os }}{{ . }} {{ end }}{{ .Slug }}">
+                <a title="{{ .Title }}" href="{{ .Permalink }}">{{ .LinkTitle | default .Title }}</a>
+            </li>
+        {{ end }}
+    </ul>
+{{ end }}

@@ -25,6 +25,7 @@
   "homepage": "https://github.com/biapy/biapy-hugo-theme#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.x",
     "postcss": "^8.4.22",

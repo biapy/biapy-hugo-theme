@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
+  darkMode: "class",
   content: [
     "./themes/**/layouts/**/*.html",
     "./content/**/layouts/**/*.html",
     "./layouts/**/*.html",
-    "./content/**/*.html"
+    "./content/**/*.html",
   ],
   theme: {
     extend: {},
@@ -18,9 +18,10 @@ module.exports = {
     },
   },
   plugins: [
-    // require('@tailwindcss/typography'),
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/container-queries"),
     // require('@tailwindcss/forms'),
     // require('@tailwindcss/aspect-ratio'),
     // require('@tailwindcss/line-clamp'),
   ],
-}
+};

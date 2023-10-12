@@ -1,7 +1,48 @@
-# Hugo files
-public/
-ressources/_gen/
-.hugo_build.lock
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,grunt,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,grunt,visualstudiocode
+
+### grunt ###
+# Grunt usually compiles files inside this directory
+dist/
+
+# Grunt usually preprocesses files such as coffeescript, compass... inside the .tmp directory
+.tmp/
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo,grunt,visualstudiocode
 
 # Logs
 *.log
@@ -10,9 +51,6 @@ npm-debug.log*
 # Coverage directory used by tools like istanbul
 coverage
 *.lcov
-
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
 
 # Dependency directories
 node_modules/
@@ -28,9 +66,3 @@ node_modules/
 
 # Optional stylelint cache
 .stylelintcache
-
-# VSCode files
-.vscode/
-
-# Stores VSCode versions used for testing VSCode extensions
-.vscode-test

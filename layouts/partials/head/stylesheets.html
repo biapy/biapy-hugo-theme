@@ -1,4 +1,4 @@
-{{ with resources.Get "css/main.css" | postCSS (dict "config" "./postcss.config.js") | fingerprint "sha512" }}
+{{ with resources.Get "css/main.css" | postCSS | fingerprint "sha512" }}
 <link rel="preload" as="style" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
 <link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" integrity="{{ .Data.Integrity }}" />
 {{ end }}

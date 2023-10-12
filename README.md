@@ -1,8 +1,12 @@
 # Biapy Hugo Theme
 
-Biapy Hugo Theme is a Tailwind CSS based theme making use of
+_Biapy Hugo Theme_ is a Tailwind CSS based theme making use of
 [Biapy ARIA Hugo Theme](https://github.com:biapy/biapy-aria-hugo-theme)
 boilerplate.
+
+_Biapy Hugo Theme_ use Chroma's [onedark theme](https://xyproto.github.io/splash/docs/onedark.html)
+for syntax highlighting. Update `chroma.css` stylesheet with
+`hugo gen chromastyles --style='onedark' > 'assets/css/chroma-onedark.css'`.
 
 ## 🧐 Features
 

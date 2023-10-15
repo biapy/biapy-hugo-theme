@@ -19,32 +19,33 @@
   }
 
   .site-header {
-    @apply relative flex w-full flex-wrap items-center justify-between
-        bg-neutral-100 py-2 text-neutral-500 shadow-lg
-        hover:text-neutral-700 focus:text-neutral-700
-        dark:bg-neutral-600 lg:py-4;
+    &__inner {
+      @apply navbar bg-base-100;
+    }
+
+    &__start {
+      @apply navbar bg-base-100;
+    }
 
     &__branding {
-      @apply flex items-center;
+      @apply btn btn-ghost normal-case text-xl;
     }
 
-    &__logo {
-      @apply text-2xl font-medium text-blue-500;
+    &__center {
+      @apply navbar-center hidden lg:flex;
     }
 
-    &__nav {
-      @apply flex-grow items-center;
+    &__end {
+      @apply navbar-end;
     }
   }
 
   .dropdown-menu {
-    @apply relative items-center hidden space-x-8 lg:flex;
-
     &__list {
-      @apply mr-auto flex flex-col pl-0 lg:flex-row;
+      @apply menu menu-horizontal px-1;
     }
 
-    &__item {
+    /* &__item {
       @apply m-4 flex-shrink lg:my-0 lg:pr-2;
 
       &--has-children {
@@ -69,7 +70,7 @@
 
     &__item--has-children:hover &__children {
       @apply visible;
-    }
+    } */
   }
 
   .section-contents {

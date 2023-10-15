@@ -18,6 +18,7 @@ for syntax highlighting. Update `chroma.css` stylesheet with
 
 - [Hugo](https://gohugo.io/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [daisyUI](https://daisyui.com/).
 
 ### Tools
 

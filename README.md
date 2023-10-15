@@ -48,6 +48,7 @@ npm install package-name
 - [Hugo Starter Theme with Tailwind CSS @ GitHub](https://github.com/dirkolbrich/hugo-tailwindcss-starter-theme)
 - [Making Tailwind JIT work with Hugo, the Version 3 edition @ Bryce Wray](https://www.brycewray.com/posts/2022/03/making-tailwind-jit-work-hugo-version-3-edition/)
 - [Setup Hugo With Tailwindcss for Netlify @ thoughtexpo](https://thoughtexpo.com/setup-hugo-with-tailwindcss-for-netlify/)
+- [Making Tailwind JIT work with Hugo, the Version 3 edition @ brycewray.com](https://www.brycewray.com/posts/2022/03/making-tailwind-jit-work-hugo-version-3-edition/).
 
 ## 🍰 Contributing
 

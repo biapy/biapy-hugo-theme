@@ -1,4 +1,10 @@
-{{ with resources.Get "css/main.css" | postCSS | fingerprint "sha512" }}
-<link rel="preload" as="style" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
-<link rel="stylesheet" href="{{ .RelPermalink }}" type="text/css" integrity="{{ .Data.Integrity }}" />
+{{ with resources.Get "css/main.css" }}
+  {{ $styles := . | resources.PostCSS (dict "config" "./postcss.config.js") }}
+  {{ if hugo.IsProduction }}
+  	{{ $styles = $styles | minify | fingerprint "sha512" | resources.PostProcess }}
+  {{ else }}
+	  {{ $styles = $styles | fingerprint "sha512" | resources.ExecuteAsTemplate (printf "css/index.dev.%v.css" now.UnixMilli) . }}
+  {{ end }}
+  <link rel="preload" as="style" href="{{ $styles.RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ .Data.Integrity }}" />
 {{ end }}

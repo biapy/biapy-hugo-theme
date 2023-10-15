@@ -1,9 +1,9 @@
+/** Import Chroma OneDark theme */
+@import "assets/css/chroma-onedark.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/** Import Chroma OneDark theme */
-@import "assets/css/chroma-onedark.css";
 
 @layer components {
   .skip-content-nav {

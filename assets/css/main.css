@@ -176,26 +176,6 @@
     }
   }
 
-  .post-link {
-    @apply inline-block text-blue-800 transition duration-150 dark:text-blue-400;
-
-    &:visited {
-      @apply text-blue-800 dark:text-blue-400;
-    }
-
-    &:focus {
-      @apply text-red-600 dark:text-blue-500;
-    }
-
-    &:active {
-      @apply text-red-700 dark:text-blue-600;
-    }
-
-    &:hover {
-      @apply text-red-600 dark:text-red-500;
-    }
-  }
-
   .single {
     @apply prose prose-slate lg:prose-xl dark:prose-invert prose-a:text-blue-600;
 

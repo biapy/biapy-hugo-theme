@@ -59,6 +59,15 @@ be learn, inspire, and create. Any contributions you make are
 Before contributing, please read the [code of conduct](CODE_OF_CONDUCT.md)
 & [contributing guidelines](CONTRIBUTING.md).
 
+This repository follows
+
+- [Conventional Commits v1.0.0](https://www.conventionalcommits.org/en/v1.0.0/).
+- [Gitmoji](https://gitmoji.dev/).
+
+This project makes use of:
+
+- [EditorConfig](https://editorconfig.org/).
+
 ## ❤️ Support
 
 A simple star to this project repo is enough to keep me motivated on this

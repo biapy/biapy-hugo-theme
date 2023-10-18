@@ -176,10 +176,39 @@
     }
   }
 
-  .single {
-    @apply prose prose-slate lg:prose-xl dark:prose-invert prose-a:text-blue-600;
+  .post-link {
+    @apply link;
+  }
+
+  .header-hero {
+    @apply hero min-h-screen image-full;
+    &__image {
+    }
+
+    &__overlay {
+      @apply hero-overlay bg-opacity-60;
+    }
 
     &__content {
+      @apply hero-content text-center text-neutral-content;
+    }
+
+    &__content-container {
+      @apply max-w-md;
+    }
+
+    &__title {
+      @apply mb-5 text-5xl font-bold;
+    }
+
+    &__description {
+      @apply mb-5;
+    }
+  }
+
+  .single {
+    &__content {
+      @apply prose prose-slate lg:prose-xl dark:prose-invert;
       /* & ul li::before {
         content: "▸";
         @apply inline-block float-left ml-2 mr-1 text-red-700;

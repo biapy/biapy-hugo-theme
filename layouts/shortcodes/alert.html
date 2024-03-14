@@ -1,5 +1,5 @@
 {{- $type := default "info" (.Get 0) -}}
-<div class="items-start alert alert-{{ $type }} shadow-lg ">
+<div class="items-start alert alert-{{ $type }} shadow-lg my-6">
   {{ with (eq $type "success") }}
   <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 mt-8 h-6 w-6" fill="none" viewBox="0 0 24 24">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

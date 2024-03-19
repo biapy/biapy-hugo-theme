@@ -3,8 +3,8 @@ title: Biapy Hugo Theme demo
 copyright: 'Copyright © 2023 Biapy. Open-source unter MIT license.'
 
 theme:
-  # - github.com/biapy/html-aria-hugo-theme
-  - html-aria-hugo-theme
+  - github.com/biapy/html-aria-hugo-theme
+  #- html-aria-hugo-theme
 
 # module:
 #   imports:

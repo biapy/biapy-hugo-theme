@@ -4,11 +4,10 @@ copyright: 'Copyright © 2023 Biapy. Open-source unter MIT license.'
 
 theme:
   - github.com/biapy/html-aria-hugo-theme
-  #- html-aria-hugo-theme
 
-# module:
-#   imports:
-#     - path: github.com/biapy/html-aria-hugo-theme
+module:
+  imports:
+    - path: github.com/biapy/html-aria-hugo-theme
 
 # Configure build.
 # @see https://gohugo.io/getting-started/configuration/#configure-build

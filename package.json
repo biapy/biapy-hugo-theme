@@ -4,43 +4,39 @@
     "url": "https://github.com/biapy/biapy-hugo-theme/issues"
   },
   "comments": {
-    "dependencies": {
+    "dependencies": {},
+    "devDependencies": {
       "@fullhuman/postcss-purgecss": "project",
       "@tailwindcss/container-queries": "project",
       "@tailwindcss/typography": "project",
       "autoprefixer": "project",
       "daisyui": "project",
       "postcss": "project",
-      "postcss-bem": "project",
       "postcss-cli": "project",
       "postcss-import": "project",
       "postcss-nested": "project",
-      "tailwindcss": "project"
-    },
-    "devDependencies": {
       "prettier": "project",
       "stylelint": "project",
-      "stylelint-config-standard": "project"
+      "stylelint-config-standard": "project",
+      "tailwindcss": "project"
     }
   },
-  "dependencies": {
+  "dependencies": {},
+  "description": "Tailwind CSS theme for a helpdesk",
+  "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.x",
     "daisyui": "^3.9.2",
     "postcss": "^8.4.37",
-    "postcss-bem": "^0.4.1",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",
     "postcss-nested": "^6.0.1",
-    "tailwindcss": "^3.x"
-  },
-  "description": "Tailwind CSS theme for a helpdesk",
-  "devDependencies": {
     "prettier": "^2.8.8",
     "stylelint": "^15.6.0",
-    "stylelint-config-standard": "^33.0.0"
+    "stylelint-config-standard": "^33.0.0",
+    "tailwindcss": "^3.x"
   },
   "homepage": "https://github.com/biapy/biapy-hugo-theme#readme",
   "keywords": [

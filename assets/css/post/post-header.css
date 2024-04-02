@@ -1,0 +1,25 @@
+.header-hero {
+  @apply hero image-full aspect-video overflow-clip;
+  &__image {
+  }
+
+  &__overlay {
+    @apply max-w-2xl min-h-16  blur-lg rounded-full;
+  }
+
+  &__content {
+    @apply hero-content hero-overlay max-w-full p-0 text-center text-neutral-content;
+  }
+
+  &__content-container {
+    @apply max-w-2xl backdrop-grayscale backdrop-blur-sm blur-lg p-16 rounded-full;
+  }
+
+  &__title {
+    @apply mb-5 text-5xl font-bold blur-none;
+  }
+
+  &__description {
+    @apply mb-5 text-3xl blur-none;
+  }
+}
